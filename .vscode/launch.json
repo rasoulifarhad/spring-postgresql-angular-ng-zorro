@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Spring Boot-Application<spring-boot-app>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"mainClass": "com.farhad.example.ngzorro.Application",
+			"projectName": "spring-boot-app",
+			"args": "",
+			"envFile": "${workspaceFolder}/.env"
+		}
+	]
+}
