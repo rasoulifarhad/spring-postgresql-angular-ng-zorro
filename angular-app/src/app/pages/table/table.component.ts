@@ -88,7 +88,9 @@ export class TableComponent implements OnInit {
   }
 
   editPerson(id: string) {
+    console.log('Edition person with id: ', id);
     this.personService.find(id).subscribe(result => {
+      console.log('person detail: ', result);
       const modal = this.modal.create<PersonFormModalComponent, Person>({
         nzContent: PersonFormModalComponent,
         nzWidth: 900,
